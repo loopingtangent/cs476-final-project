@@ -1,0 +1,42 @@
+:root {
+    --background-header-color: #ddbeed; 
+    --background-color: #dbdbdb;
+}
+
+/* BASICS */
+
+body {
+    background: var(--background-color);
+}
+
+
+/* HEADER */
+
+.header-div-shape {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: var(--background-header-color);
+}
+
+.logo-header {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-header {
+    margin: 20px;
+}
+
+.profile-pic-header {
+    height: 80px;
+    margin: 20px;
+    border: solid var(--border-color) 2px;
+}
+
+.profile-options-header {
+    padding: 15px;
+}
