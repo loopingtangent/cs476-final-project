@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="col-4">
-      <-- this is turning into a drop down menu when I get a chance -->
+      <!-- this is turning into a drop down menu when I get a chance -->
       <div class="row profile-header">
         <div class="col">
           <img class="profile-pic-header" src="images/placeholder_profile.png">
@@ -49,7 +49,7 @@
     </div>
     <div class="col-4">
       <div class="profile-options-header">
-         <-- I'm also gonna need the same drop-down function for the login info -->
+         <!-- I'm also gonna need the same drop-down function for the login info -->
         <p><a href="../log-in.php">Log In</a> | <a href="../sign-up.php">Sign Up</a></p>
       </div>
     </div><? } ?>
