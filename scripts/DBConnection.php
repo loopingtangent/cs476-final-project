@@ -1,9 +1,9 @@
 <?php
     //connecting to database - START
-        $host = 'ftp.loopingtangent.com';
-        $db = 'loopingt_loopingtangent_main';
-        $user = 'cs476user@pick4me.loopingtangent.com';
-        $pass = 'cs476test1';
+    $host = ;
+    $db = ;
+    $user = ;
+    $pass = ;
         try {
             $mysqli = new mysqli($host, $user, $pass, $db);
         } catch (\mysqli_sql_exception $e) {
@@ -31,13 +31,5 @@
             return mysqli_insert_id($GLOBALS['mysqli']);
         else
             die("Error in '".$caller['file']."' at line : ".$caller['line']." : {" . mysqli_error($GLOBALS['mysqli']) . "} <br>");
-    }
-    function checkIfLoggedIn(){
-        if($_SESSION["User_ID"]){
-            return true;
-        }
-        else{
-            return header('Location: /log-in.php');
-        }
     }
 ?>
